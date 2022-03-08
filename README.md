@@ -74,7 +74,7 @@ Score
 The score is calculated as:
 
 <p float="left">
-  <img src="/figs/Item_Item_Collaborative_Filtering/figs/Item_Item_rating.png" width="450" />
+  <img src="/figs/Item_Item_rating.png" width="450" />
 </p>
 
 where the weights are the **Pearson Correlation (PC) similarity metric**. We note that other similarity metrics such as ***Cosine Ssimilarity***, ***Mean Squared Difference*** and ***Spearman Rank Correlation Coefficient***. For more info, see Chapter 2 of [1] and [2].
