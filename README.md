@@ -59,7 +59,7 @@ The algorithm for the **item-item collaborative filtering** is summarized in the
 
 
 
-Note that if we have *N* users and *M* movies, when training, we need to: for each item, look at all other item, and, calculate the similarity between the two items (i.e. its a mathematical operation which includes vectors of length #users). Hence the computational time of this algorithm during the training process is $O(N×M^2 )$, and since we usually $N \gg M$, the running time of this algorithm is better than the [User-User Collaborative Filtering Algorithm](https://github.com/hoseinkh/User_User_Collaborative_Filtering), which has a running time of $O(M×N^2 )$.
+Note that if we have *N* users and *M* movies, when training, we need to: for each item, look at all other item, and, calculate the similarity between the two items (i.e. its a mathematical operation which includes vectors of length #users). Hence the computational time of this algorithm during the training process is $O(N×M^2 )$, and since we usually $N >> M$, the running time of this algorithm is better than the [User-User Collaborative Filtering Algorithm](https://github.com/hoseinkh/User_User_Collaborative_Filtering), which has a running time of $O(M×N^2 )$.
 
 
 
